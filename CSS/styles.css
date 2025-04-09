@@ -1,0 +1,180 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* pagina principal*/
+/* estilos para el header*/
+
+header{
+    background-color: rgb(252, 229, 214, 0.4);
+    height: 80px;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+header nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: teal;
+}
+
+/* estilos para el main */
+
+main .img{
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+main div p{
+    width: 600px;
+    margin-left: 35%;
+    margin-bottom: 55px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+    
+/*estilos para la seccion*/
+
+section{
+    height: 500px;
+    background-color: rgb(252, 229, 214);
+    margin-top: auto;
+}
+
+section div h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    
+}
+
+section .parrafo p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 90px;
+    text-align: center;
+}
+
+section div button{
+    margin-left: 45%;
+    padding: 18px;
+    background-color: rgb(0, 128, 128, 0.3);
+    border-style: none;
+    color: whitesmoke;
+}
+
+
+/* estilos para el footer*/
+footer{
+    height: 70px;
+    margin-top: 50px;
+    background-color: rgb(214, 213, 218);
+}
+
+footer p{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+
+
+
+/* ESTILOS PARA PAGINA DE SERVICIOS*/
+
+/* estilos del main*/
+
+.servicio h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.parrafo-servicio p{
+    text-align: center;
+}
+
+.img-servicios {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.img-servicios img {
+    width: 30%; 
+    margin: 0 10px;
+    display: inline-block;
+}
+
+
+/* seccion de preguntas */
+.seccion-preguntas{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    padding: 50px;
+}
+
+.seccion-preguntas div{
+    border: 1px solid gray;
+    width: 800px;
+    height: 50px;
+    margin-left: 33%;
+}
+
+.seccion-preguntas div p{
+    padding: 8px;
+}
+
+
+/* ESTILOS PARA PAGINA SOBRE NOSOTROS */
+
+.contenedor-nosotros {
+    margin-top: 90px;
+    text-align: center;
+   
+}
+
+.seccion-nosotros, .img-nosotros{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%; /* O menos si querés que estén más cerca */
+    margin: 0;
+    padding: 0;
+}
+
+.seccion-nosotros p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img-nosotros img {
+    width: 60%; 
+    border-radius: 20px;
+}
+
+/*estilos para seccion de valores*/
+
+.seccion-valores{
+    height: auto;
+    padding: 30px;
+    margin: 40px;
+}
+
+section h2{
+    color: teal;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+ul .item{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
